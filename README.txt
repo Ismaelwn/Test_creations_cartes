@@ -1,26 +1,35 @@
-Guide utilisation :
+²Guide utilisation :
 
 0 - Pré requis :
 
 *Les pages de cours  sont dans cette version obligées d'etre au format json.
 
 1 - environnement :
+
+* Installer Visual studio code
 * créer un environnement
-* Installer node sur votre machine -->
-* Installer python
+* installer git sur sa machine : https://git-scm.com/downloads/
+* Installer node sur votre machine : https://nodejs.org/fr
+* Installer python : https://www.python.org/downloads/ (peut etre aussi sur votre IDE)
+* Installer ipKernel
+* Installer jupyter ( possible aussi )
+* Redemarrer votre IDE
  
 2 - Installation dossiers
- *ouvrir un terminal, choisir le dossier où vous souhaitez installer l'outil
+ *ouvrir un terminal, choisir le dossier où vous souhaitez installer l'outil et executer les commandes suivantes :
  *git clone https://github.com/Ismaelwn/test_user_jupytercards.git
  *cd test_user_jupytercards;
- *une fois dans le dossier, installer les deux dossiers JupyterCards et Extraction_JupyterCards
-  a - télécharger exploration_JupyterCards, taper dans votre terminal en verifiant bien que vous êtes dans le dossier "TER"
-  https://github.com/Ismaelwn/exploration_jupytercards.git
-  b - télécharger JupyterCards, taper dans votre terminal en verifiant bien que vous êtes dans le dossier "TER"
-  https://github.com/Ismaelwn/jupytercards.git
+ *une fois dans le dossier, installer les deux dossiers JupyterCards et Exploration_JupyterCards
+  a - télécharger exploration_JupyterCards, taper dans votre terminal en verifiant bien que vous êtes dans le dossier test_user_jupytercards
+  git https://github.com/Ismaelwn/exploration_jupytercards.git
+  b - télécharger JupyterCards, taper dans votre terminal en verifiant bien que vous êtes dans le dossier test_user_jupytercards
+  git https://github.com/Ismaelwn/jupytercards.git
  *taper la commande ls pour verifier que vous avez bien les deux dossiers téléchargées
 
 3 - Utilisation
+  **Préparer vos cours :
+    - Données : un dossier contenant vos cours ou tout simplement un cours.
+    
   **Création des cartes
 
   *Lancer un terminal dans le dossier "TER", 2 choix s'offrent à vous : 
