@@ -11,7 +11,8 @@ Guide utilisation :
  
 2 - Installation dossiers
  *ouvrir un terminal, choisir le dossier où vous souhaitez installer l'outil
- *créer un dossier TER -> mkdir TER; cd TER
+ *git clone https://github.com/Ismaelwn/test_user_jupytercards.git
+ *cd test_user_jupytercards;
  *une fois dans le dossier, installer les deux dossiers JupyterCards et Extraction_JupyterCards
   a - télécharger exploration_JupyterCards, taper dans votre terminal en verifiant bien que vous êtes dans le dossier "TER"
   https://github.com/Ismaelwn/exploration_jupytercards.git
