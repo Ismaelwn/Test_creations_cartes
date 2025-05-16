@@ -24,13 +24,23 @@ Aucun besoin d’installer manuellement Git, Node.js ou Python si vous utilisez 
 ## 🚀 Installation rapide
 
 ### 1. Cloner le projet
+placer vous dans le repertoire ou vous souhaitez faire l'installation puis effectuer la commande suivante :
 
 ```bash
 git clone https://github.com/Ismaelwn/test_user_jupytercards.git
 cd test_user_jupytercards
 ```
 
-### 2. Lancer le script d'installation
+Une fois dans le dossier test_user_jupytercards :
+y deposer votre repertoire avec vos cours 
+
+### 2. Installer les librairies nécessaires
+
+installer la premiere librairie :
+```bash
+pip install git+https://github.com/Ismaelwn/exploration_jupytercards
+```
+
 
 #### ▸ Sous Linux/macOS
 
@@ -45,7 +55,7 @@ Double-cliquez simplement sur le fichier `install_env_windows.bat`
 
 ---
 
-## 📁 Installation des dépendances manuellement (optionnel)
+## 📁Création de l'environement
 
 ### Python
 
@@ -106,22 +116,6 @@ node main.js
 
 > 💡 Pour l’instant, la **visualisation fonctionne uniquement via un notebook Jupyter**.
 
----
-
-## 📂 Arborescence recommandée
-
-```
-test_user_jupytercards/
-├── exploration_jupytercards/     # installé via pip depuis GitHub
-├── jupytercards/                 # installé via pip depuis GitHub
-├── install_env_windows.bat       # script auto Windows
-├── install_env_linux.sh          # script auto Linux/macOS
-├── .gitignore
-├── README.md
-├── exapmle.ipynb
-```
-
----
 
 ## 📦 Dépendances utilisées
 
@@ -148,3 +142,10 @@ Pour toute question, bug ou suggestion :
 ## 📄 Licence
 
 Ce projet est libre d'utilisation, de modification et de diffusion.
+
+
+
+#### A RAJOUTER
+
+
+pip install myst-parser docutils
