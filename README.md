@@ -34,7 +34,7 @@ placer vous dans le repertoire ou vous souhaitez faire l'installation puis effec
 
 ```bash
 git clone https://github.com/Ismaelwn/test_user_jupytercards.git
-cd test_user_jupytercards
+cd Test_creations_cartes
 ```
 
 Une fois dans le dossier test_user_jupytercards :
@@ -64,35 +64,27 @@ Fin de l'installation des librairies et outils nécessaires.
 
 ### 2. Générer les cartes
 
-Dans le dossier `TER`, exécutez :
+Dans le dossier, 
 
 ```bash
-cd TER
+cd Test_creation_cartes
 ```
 
-#### ➤ Option A : Vous spécifiez le chemin absolu du fichier ou dossier
+#### ➤ Vous spécifiez le chemin absolu du fichier ou dossier
 
 ```bash
-node main.js /chemin/vers/fichier_ou_dossier.json
+python run_creation_cartes.py <nom_du_dossier_ou_fichier>
 ```
 
-#### ➤ Option B : Vous avez déjà placé les fichiers dans `TER`
 
-⚠️ Non encore implémenté. À terme, vous pourrez simplement faire :
-
-```bash
-node main.js
-```
-
----
 
 ## 🃏 Visualisation des cartes
 
-1. Restez dans le dossier `TER`
-2. Ouvrez le notebook `notebook_visualisation.ipynb`
+1. Restez dans le dossier 
+2. Ouvrez le notebook `example.ipynb`
 3. Exécutez les cellules pour :
-   - afficher la liste des cartes
-   - retourner une carte au hasard
+   - afficher la liste des cartes au hasard
+   - retourner une carte
    - visualiser son contenu
 
 > 💡 Pour l’instant, la **visualisation fonctionne uniquement via un notebook Jupyter**.
