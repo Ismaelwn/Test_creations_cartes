@@ -33,8 +33,8 @@ Je travaille dessus pour produire quelque chose de généraliste (ce que j'ai fa
 placer vous dans le repertoire ou vous souhaitez faire l'installation puis effectuer la commande suivante :
 
 ```bash
-git clone https://github.com/Ismaelwn/test_user_jupytercards.git
-cd Test_creations_cartes
+git clone https://github.com/Ismaelwn/test_creations_cartes.git
+cd test_creations_cartes
 ```
 
 Une fois dans le dossier test_user_jupytercards :
