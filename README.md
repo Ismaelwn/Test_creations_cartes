@@ -23,6 +23,12 @@ Aucun besoin d’installer manuellement Git, Node.js ou Python si vous utilisez 
 
 ## 🚀 Installation rapide
 
+### 0. Installer un environnement 
+
+
+Je travaille dessus pour produire quelque chose de généraliste (ce que j'ai fait actuellement ne me satisfait pas)
+
+
 ### 1. Cloner le projet
 placer vous dans le repertoire ou vous souhaitez faire l'installation puis effectuer la commande suivante :
 
@@ -36,41 +42,16 @@ y deposer votre repertoire avec vos cours
 
 ### 2. Installer les librairies nécessaires
 
-installer la premiere librairie :
+installer la premiere librairie, qui contient les outils d'extraction :
 ```bash
-pip install git+https://github.com/Ismaelwn/exploration_jupytercards
+pip install git+https://github.com/Ismaelwn/exploration_jupytercards.git
+```
+installer la deuxieme librairie, qui contient les outils de representation et d'affichage d'une carte :
+```bash
+pip install git+https://github.com/Ismaelwn/jupytercards.git
 ```
 
-
-#### ▸ Sous Linux/macOS
-
-```bash
-chmod +x install_env_linux.sh
-./install_env_linux.sh
-```
-
-#### ▸ Sous Windows
-
-Double-cliquez simplement sur le fichier `install_env_windows.bat`
-
----
-
-## 📁Création de l'environement
-
-### Python
-
-```bash
-pip install -r requirements.txt
-```
-
-### Node.js (dans le dossier `TER`)
-
-```bash
-cd TER
-npm install
-```
-
----
+Fin de l'installation des librairies et outils nécessaires.
 
 ## 🧪 Utilisation
 
@@ -127,7 +108,6 @@ node main.js
 - `fs` (natif)
 - `path` (natif)
 
-
 ---
 
 ## 🙋 Support
@@ -139,13 +119,3 @@ Pour toute question, bug ou suggestion :
 
 ---
 
-## 📄 Licence
-
-Ce projet est libre d'utilisation, de modification et de diffusion.
-
-
-
-#### A RAJOUTER
-
-
-pip install myst-parser docutils
