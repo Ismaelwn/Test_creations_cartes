@@ -31,6 +31,7 @@ Je travaille dessus pour produire quelque chose de généraliste (ce que j'ai fa
 1. Installer python sur votre machine (si ce n'est pas deja fait) : [python 3.11](https://www.python.org/downloads/release/python-3110/)
 2. Installer node sur votre machine : [node v22.15.1](https://nodejs.org/fr/download)
 3. installer Jupyter et ipykernel : 
+ouvrir un terminal et taper la commande suivante :
 ```bash
 pip install jupyter ipykernel
 ```
