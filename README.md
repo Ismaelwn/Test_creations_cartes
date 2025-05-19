@@ -8,12 +8,6 @@ Ce dépot sert à installer une version de notre outil d'extraction et de transf
 
 ## 🧰 Prérequis
 
-Aucun besoin d’installer manuellement Git, Node.js ou Python si vous utilisez les scripts suivants :
-
-- Windows : [`install_env_windows.bat`](install_env_windows.bat)
-- Linux/macOS : [`install_env_linux.sh`](install_env_linux.sh)
-
-> Ces scripts téléchargent et installent automatiquement :
 > - Python 3.11
 > - pip + jupyter + ipykernel
 > - Node.js LTS
@@ -44,7 +38,7 @@ git clone https://github.com/Ismaelwn/test_creations_cartes.git
 cd test_creations_cartes
 ```
 
-Une fois dans le dossier test_user_jupytercards :
+Une fois dans le dossier test_creations_cartes :
 y deposer votre repertoire avec vos cours 
 
 ### 2. Installer les librairies nécessaires
