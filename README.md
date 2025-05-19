@@ -28,6 +28,12 @@ Aucun besoin d’installer manuellement Git, Node.js ou Python si vous utilisez 
 
 Je travaille dessus pour produire quelque chose de généraliste (ce que j'ai fait actuellement ne me satisfait pas)
 
+1. Installer python sur votre machine (si ce n'est pas deja fait) : [python 3.11](https://www.python.org/downloads/release/python-3110/)
+2. Installer node sur votre machine : [node v22.15.1](https://nodejs.org/fr/download)
+3. installer Jupyter et ipykernel : 
+```bash
+pip install jupyter ipykernel
+```
 
 ### 1. Cloner le projet
 placer vous dans le repertoire ou vous souhaitez faire l'installation puis effectuer la commande suivante :
