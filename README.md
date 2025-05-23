@@ -4,6 +4,7 @@
 JupyterCards est un outil permettant de générer et visualiser des cartes mémoire automatiquement à partir de cours structurés au format `.json`. En complément, nous avons implémenté des outils permettant l'extraction et avons modifié JupyterCards afin de l'adapter à notre problème.
 Ce dépot sert à installer une version de notre outil d'extraction et de transformation de cours en carte. A l'aide d'une interface Jupyter Notebook, nous pouvons en avoir une visualisation.
 
+
 ---
 
 ## 🧰 Prérequis
