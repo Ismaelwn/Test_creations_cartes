@@ -2,7 +2,7 @@ import subprocess
 import sys
 import os
 import exploration_jupytercards  # Ton package installé via pip
-
+from exploration_jupytercards import tools
 # ————————————————————————————————————
 # 1. Récupérer le dossier content (argument optionnel)
 # ————————————————————————————————————
@@ -12,6 +12,7 @@ print(f"🧬  Extraction des définitions dans : {content_dir}")
 # ————————————————————————————————————
 # 2. Étape Python : tool_extraction.py
 # ————————————————————————————————————
+'''
 try:
     result1 = subprocess.run(
         ["python", "tool_extraction.py", content_dir],
@@ -21,6 +22,8 @@ try:
 except subprocess.CalledProcessError as e:
     print(f"🚨  Erreur dans tool_extraction.py :\n{e.stderr}")
     sys.exit(1)
+'''
+tools.extract_tools()
 
 # ————————————————————————————————————
 # 3. Étape JS : index.js (dans exploration_jupytercards)
@@ -47,7 +50,8 @@ except subprocess.CalledProcessError as e:
 # 4. Étape Python : tool_toDict.py
 # ————————————————————————————————————
 print("🧬  Création du dictionnaire final (tool_toDict.py)…")
-
+tools.toDict_tools()
+'''
 try:
     result3 = subprocess.run(
         ["python", "tool_toDict.py"],
@@ -57,3 +61,4 @@ try:
 except subprocess.CalledProcessError as e:
     print(f"🚨  Erreur dans tool_toDict.py :\n{e.stderr}")
     sys.exit(3)
+'''
