@@ -6,6 +6,8 @@ from exploration_jupytercards import tools
 # ————————————————————————————————————
 # 1. Récupérer le dossier content (argument optionnel)
 # ————————————————————————————————————
+
+current_dir = os.getcwd()
 content_dir = sys.argv[1] if len(sys.argv) > 1 else "content"
 print(f"🧬  Extraction des définitions dans : {content_dir}")
 
@@ -23,7 +25,7 @@ except subprocess.CalledProcessError as e:
     print(f"🚨  Erreur dans tool_extraction.py :\n{e.stderr}")
     sys.exit(1)
 '''
-tools.extract_tools()
+tools.extract_tools(current_dir)
 
 # ————————————————————————————————————
 # 3. Étape JS : index.js (dans exploration_jupytercards)
@@ -50,7 +52,7 @@ except subprocess.CalledProcessError as e:
 # 4. Étape Python : tool_toDict.py
 # ————————————————————————————————————
 print("🧬  Création du dictionnaire final (tool_toDict.py)…")
-tools.toDict_tools()
+tools.toDict_tools(current_dir)
 '''
 try:
     result3 = subprocess.run(
