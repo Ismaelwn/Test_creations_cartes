@@ -1,5 +1,9 @@
 # JupyterCards – Flashcard Generator from JSON Files
 
+
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://www.python.org/) 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 JupyterCards is a tool that automatically generates and displays flashcards from courses structured in `.json` format. In addition, we have implemented extraction tools and modified JupyterCards to adapt it to our problem. This repository is used to install a version of our extraction and course-to-card transformation tool. With a Jupyter Notebook interface, we can visualize the result.
 
 ## Get Started
