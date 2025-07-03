@@ -10,6 +10,7 @@ JupyterCards is a tool that automatically generates and displays flashcards from
 
 > * Python >= 3.11
 > * pip >= 24.0.1
+> * Mystmd (any version)
 
 ---
 
@@ -24,11 +25,14 @@ git clone https://github.com/Ismaelwn/test_creations_cartes.git
 cd test_creations_cartes
 ```
 
-Once inside the `test_creations_cartes` folder, drop your directory containing your courses there.
+Once inside the `test_creations_cartes` folder, drop your directory containing your courses there (you can also use our feature making you able to use the tool from everywhere without editing your datas).
 
 ### 2. Install the required libraries
 
 Install the first library, which contains the extraction tools:
+```bash
+pip install mystmd
+```
 
 ```bash
 pip install git+https://github.com/Ismaelwn/exploration_jupytercards.git
@@ -57,10 +61,10 @@ Inside the folder:
 cd Test_creation_cartes
 ```
 
-#### Specify the absolute path of the file or folder
+#### Specify the absolute path of folder
 
 ```bash
-python run_creation_cartes.py <name_of_folder_or_file>
+python run_creation_cartes.py <name_of_folder>
 ```
 
 ## Card Visualization
